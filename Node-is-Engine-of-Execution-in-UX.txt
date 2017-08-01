@@ -1,0 +1,78 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Node.js is the Engine of Execution in UX
+
+Trevor Livingston, Principal Architect, HomeAway
+@tlivings
+
+Alternative lodging marketplace.
+Acquired by Expedia, changed everything.
+Create a new global experience.
+Need to differentiate in crowded space.
+Cloud enabled.
+Data enabled.
+Continuous learning, feature flagging to learn more about users.
+UX, redesign 20 UIs across multiple brands.
+Java, Ruby, etc., consolidate technology.
+Need to respond to learning about users very quickly.
+Previous architecture, Java services.
+New technology, immersive search, full screen, touch friendly.
+Answers property owner question: how much money can I make?
+Stack challenges, monolithic Java:
+  - Difficult to make changes.
+  - Unknown impact to change management.
+  - Context switching, developers working in multiple languages.
+  - Continuous delivery harder with larger bundles.
+  - Lack of evolution, to pick up newer technologies.
+Goals of new stack:
+  - Operational predictability.
+  - Component based development.
+  - Insulate from cloud migration.
+  - Teams update independently.
+  - Enable innovation.
+New stack: React, Node, npm, Hapi.
+Hapi is an amazing framework:
+  - Elegant plugin architecture.
+  - Configuration driven.
+  - Easy to innersource.
+  - Insulation from change, microservices.
+App architecture.
+React using GraphQL endpoints.
+GraphQL fragments, registering schema fragments, using Apollo.
+Simply exports types, queries, services.
+React component declares ..., don't worry about Redux.
+Powerful way to build things quickly.
+Now using Node.js for UI orchestration.
+Accelerates mobile.
+From design to production in two months for one new app.
+Seven months in, and pushing third major release.
+New owner dashboard in three months.
+One year ago, one Node app in production.
+Now, 15 Node apps in production, 22 in development.
+75+ internal npm modules.
+Q&A:
+Running Node 6, testing Node 8 for compatibility.
+Using GraphQL as data transport.
+All React, no Angular right now.
+React is the default for app development.
+Tools to test react, webdriver.io, Mocha for unit testing.
+Did not use GraphQL for legacy, only using it for new stack.
+GraphQL is fairly easy to test.
+Using caching component, server-side rendering?  Yes.
+Not a generalized caching solution.
+Dev team caches as needed in app memcache.
+
+https://www.homeaway.com/
+
+https://hapijs.com/
+
+https://paypal.github.io/InnerSourceCommons/
+
+http://graphql.org/
+
+http://dev.apollodata.com/
+
+http://webdriver.io/
+
+https://mochajs.org/
+
