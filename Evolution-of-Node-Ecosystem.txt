@@ -1,0 +1,72 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+The Evolution of the Node.js Ecosystem
+
+Rod Vagg, Chief Node Officer, NodeSource
+Member Node.js Foundation Technical Steering Committee
+@rvagg
+
+Node adoption is accelerating.
+In the beginning, Node creator Ryan Dahl was inspired by NGINX.
+JavaScript on servers was already being done.
+New with Node was I/O.
+Completely different class of applications.
+NGINX scalability and speed.
+All due to doing I/O differently.
+Non-blocking I/O.
+There was a cultural bias towards writing blocking-style code.
+Painful to transition to asynchronous programming.
+Real world is async.
+Most libs in 2009 preferred blocking style.
+Node 2009:
+  - Strictly async.
+  - Used early form of Promises.
+  - Introduced streaming very early.
+Node v0.2.0 Aug 2010:
+  - Mostly compatible with today's Node.
+  - Ideas settled.
+Ryan Dahl inspired lots of really talented contributors.
+Mikeal Rogers built community around Node, 2010.
+NodeConf was hotbed of Node design decisions.
+Node community:
+  - Defined by real-world applications.
+  - Growing collection of open source libraries.
+  - Diverse and creative use cases.
+The Node way.
+Node core is small, but JavaScript allows many styles.
+So need conventions.
+TJ Holowaychuk authored Express and Connect.
+Translated ideas from other ecosystems, Ruby.
+Ideas made sense, so people flocked to it.
+npm and module systems, fundamental to how we use Node.
+npm embraced as default package manager.
+Node plus npm define next-gen software module system.
+npm, absolute revolution in dependency management.
+Substack in 2013, idea of small modules like Unix.
+Authored lots of modules.
+Module driven development.
+npm was a monolith at the time.
+So Isaac pulled it apart, small modules ongoing.
+NodeSchool came out of Substack idea.
+Max Ogden, embracing community of people.
+Viral across the world.
+Nodebots, Node interacting with hardware.
+Growth and stability.
+Larger companies started showing up, 2013/2014.
+NodeSource, Dan Shaw and Joe McCann dedicated to enterprise.
+npm under strain, governance model, tension, io.js fork.
+Node.js Foundation, members very competitive.
+Now, LTS upgrades are painless.
+Building on top of really solid foundation of code, infrastructure.
+Old: Node community.
+New: Node ecosystem.
+Node end users, Node in toolchain.
+You don't build front-ends these days without a Node toolchain.
+Need to be more expansive in how we refer to Node.
+Technology Adoption Curve:
+Enthusiasts, Visionaries, Pragmatists, Conservatives, Skeptics.
+Where are we on that curve now?
+How far along is Node on that curve?
+How can we ensure Node follows that path?
+Ensure growth, success.
+
