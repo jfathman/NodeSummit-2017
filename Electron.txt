@@ -1,0 +1,40 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Panel Discussion: Electron
+
+Bianca Escalante, Senior Manager, Social Impact, GitHub
+@BiancaCreating
+
+Kai Maetzel, Principal Software Engineer, Microsoft
+@kaimaetzel
+
+Felix Rieseberg, Staff Engineer, Slack
+@felixrieseberg
+
+Jacob Groundwater, Electron Engineering Manager, GitHub
+@0x604
+
+Atom editor was original project.
+Electron came out as a side-effect.
+How to uphold strong community and growth.
+If you wait to long to establish norms for your community, much harder to introduce later.
+Maintainers community not visible on website.
+Has been organic, want to get past that.
+Need active role in outreach.
+Grow the Electron community, build a better Slack.
+Social impact.
+Diversity will let us build a better Slack.
+Not just about goodwill.
+Opening collaboration to other timezones has huge benefit.
+Need to smooth the hurdles to contribute to Electron.
+Need access to roadmap, keeping it up to date.
+If PR just sits there, discourages newcomer.
+This is community management, provide feedback to PRs.
+Electron source is mostly C++, intimidating.
+Its own API on top of Node on top of Chrome.
+It's a monster.
+Electron maintainers have responsibility to respond to folks who are just putting themselves out there.
+To make them feel welcome.
+There are humans on the other side of this.
+Many individuals come together to make Electron: Slack, Microsoft, GitHub, others.
+
