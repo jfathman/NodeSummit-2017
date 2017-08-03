@@ -16,8 +16,8 @@ Jacob Groundwater, Electron Engineering Manager, GitHub
 
 Atom editor was original project.
 Electron came out as a side-effect.
-How to uphold strong community and growth.
-If you wait to long to establish norms for your community, much harder to introduce later.
+How to uphold strong community and growth?
+If you wait too long to establish norms for your community, much harder to introduce later.
 Maintainers community not visible on website.
 Has been organic, want to get past that.
 Need active role in outreach.
@@ -31,10 +31,11 @@ Need access to roadmap, keeping it up to date.
 If PR just sits there, discourages newcomer.
 This is community management, provide feedback to PRs.
 Electron source is mostly C++, intimidating.
-Its own API on top of Node on top of Chrome.
+Electron is its own API on top of Node on top of Chrome.
 It's a monster.
 Electron maintainers have responsibility to respond to folks who are just putting themselves out there.
 To make them feel welcome.
 There are humans on the other side of this.
 Many individuals come together to make Electron: Slack, Microsoft, GitHub, others.
+Microsoft Visual Studio Code is based on Electron.
 
