@@ -1,0 +1,53 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Node.js and IBM Watson: How Accenture Harnesses the Power of Cognitive AI
+
+Sheethal Kumar, Senior Watson Lead Architect, Accenture
+@sheethaljain
+
+Mark Potts, Global ACIT Lead, Watson Practice Lead, Accenture
+
+Accenture was being disrupted.
+Previous drivers were SAP, Oracle.
+Seeing significant decline with that.
+Customers want to see something new, innovative.
+Accenture is a $32B company with 400,000 people.
+Looking for new ways to bring value.
+Partnered with IBM, who was experiencing same change.
+80% of world's data is invisible.
+Data that's coming:
+  - IoT
+  - Sensor data
+  - Images
+  - Video
+How to get meaningful insight from data?
+Cognitive systems are not programmed, they learn their behavior through training.
+IBM Watson is a cognitive system, with cognitive capabilities available as APIs:
+  - Language
+  - Speech
+  - Vision
+  - Data insights
+  - Etc.
+Analytics.
+Cognitive application architecture: apps, AI, data, cloud.
+Why Node.js?
+  - Lightweight
+  - Modular
+  - Responsive
+  - Best tool for the job
+  - Standards and API based
+  - Open source
+  - Ecosystem
+Accenture is now using:
+  - Node
+  - Express
+  - Angular
+  - Watson
+  - Istanbul (code coverage)
+  - Mocha, Chai
+  - PhantomJS, CasperJS
+  - Gulp
+  - Git
+  - Jenkins
+  - Eslint
+  - Jira
