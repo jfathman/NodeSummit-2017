@@ -1,0 +1,63 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+N-API: Next Generation Node API for Native Modules
+
+Michael Dawson, Senior Software Developer, Node.js Community Lead, IBM
+@mhdawson1
+
+Arunesh Chandra, Senior Program Manager, Chakra, Microsoft
+@AruneshC
+
+Raise awareness of N-API.
+Landed in Node 8 as experimental.
+Why this is needed, problem space.
+Porting V8 to Power Architecture and S/390.
+10 collaborators in community.
+Broad coalition of contributors made N-API.
+N-API is a stable Node API layer for native modules, across different Node versions.
+Without N-API, there is module breakage with each new Node release.
+With N-API, native modules work without recompile.
+ABI (application binary interface) compatibility.
+Reduces friction upgrading to newer Node versions in production deployments.
+Reduces maintenance cost for module maintainers.
+N-API provides more complete isolation from V8.
+C and C++ supported.
+N-API expected to replace NaN (Native Abstractions for Node.js) usage in the long run.
+Modules already ported to N-API successfully include:
+  - SQLite
+  - LevelDOWN
+  - nanomsg
+  - IoTivity
+  - node-sass
+  - Canvas
+N-API is documented at nodejs.org.
+Source style:
+  napi_status napi_create_array()
+  napi_status napi_get_last_error_info()
+  napi_status napi_throw()
+  napi_env napi_value
+C API example:
+  #include <node_api.h>  // not V8 or libuv headers
+  napi_value* RunCallback(napi_env env, const napi_callback_info info)
+  :
+  NAPI_MODULE(addon, Init)
+N-API C++ wrapper module is syntactic sugar on top of N-API C module.
+Compare to NaN API example that is V8 specific:
+  V8::local ...
+Tried to make N-API consistent with NaN, but not a one-to-one translation.
+Conversion tool provided, perhaps 80% automated conversion.
+Plan to backport N-API to Node 6.x.
+Node 4.x in maintenance mode, don't plan to backport.
+'Digital infinity' wrapper.
+Inviting people to join the N-API working group.
+Calling on native module maintainers to provide feedback.
+
+https://nodejs.org/api/n-api.html
+
+https://github.com/Level/leveldown
+
+http://nanomsg.org/
+
+https://github.com/nickdesaulniers/node-nanomsg
+
+
