@@ -1,0 +1,52 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Malcolm: Tighten the Connection Between Your RAML/Swagger and Your Code
+
+Mike Fine, Software Architect, Comcast
+@michaelcfine
+
+Use API metadata.
+Malcolm open source project through Comcast.
+Today:
+  1) Write code.
+  2) Document API using RAML/Swagger.
+  3) Divergence - API metadata and app diverge.
+Forty percent of data marshalling code is the same.
+Religious wars, where put ..., in URL, put/get verbs, etc.
+Rely on best intentions, discipline for accuracy.
+Node RAML, rebranded Malcolm, add Swagger.
+Malcolm is not Express/Hapi middleware.
+Malcolm sits between app and Express/Hapi.
+Sort of does the right thing.
+malcolm.addExpressRoute(app, '/posts', 'GET', ...);
+Or, JSON file for every resource/method.
+So this is all the code you would need.
+Now, no chance RAML/Swagger does not match server runtime code.
+Malcolm rummages through the Node request object.
+Testable without HTTP.
+All metadata driven, but this is not code generation.
+RAML file becomes source of truth for API.
+Independent from Express and Hapi, can switch without changes.
+Includes fake data support, using fake data response keys.
+Fake data can be time sensitive.
+So support '+2h|x' like moment.js.
+Future possibilities:
+  - Logging request/responses.
+  - Statistics logging.
+  - Dynamic 'try it', no build/generation step.
+  - UI to present response.
+  - Load shifting, throw some requests away.
+  - Unit test support, correlate with RAML.
+Looking for dev helpers.
+Q&A:
+Performance overhead?
+Have run in production 1.5 years.
+Not a problem in normal use case.
+All in memory, hash tables, performant.
+Downstream calls take much more time.
+
+https://raml.org/
+
+https://swagger.io/
+
+https://github.com/Comcast/malcolm
