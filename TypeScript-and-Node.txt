@@ -1,0 +1,31 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+0-60 with TypeScript and Node.js
+
+Bowden Kelly, Program Manager, Microsoft
+@bowdenk7
+
+TypeScript.
+Type enforcement.
+Superset of JavaScript.
+TypeScript is just JavaScript, with some tools added.
+Use @ts-check.
+Optional JSDoc equivalent.
+In a recent study, Flow and TypeScript found 15% of production bugs.
+$ tsc --init
+tsconfig.json
+Convert files to TypeScript piecemeal, incrementally.
+Change 'require' to 'import' to eliminate errors.
+@types, scope on npm, module type definitions, .d.ts files.
+Export type as needed to satisfy tsc.
+Use types where helpful, ignore them where not.
+
+https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files
+
+https://github.com/Microsoft/TypeScript/wiki/JSDoc-support-in-JavaScript
+
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+https://www.npmjs.com/~types
+
+https://github.com/Microsoft/TypeScript-Node-Starter
