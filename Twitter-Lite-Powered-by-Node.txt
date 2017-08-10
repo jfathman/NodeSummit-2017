@@ -1,0 +1,92 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Twitter Lite: Powered by Node
+
+James Bellenger, Senior Software Engineer, Twitter
+@jbell
+
+Recent rewrite of Twitter mobile.
+Launched three months ago, after two years in development.
+Push notification and offline mode.
+Complete rewrite.
+First major service at Twitter on Node.
+2015, JavaScript front-end married to Java/Scala backend.
+Uses shared Scala libs, very efficient.
+Downside, server in critical path for all page views.
+Hard to maintain, paged the on-call engineer often.
+Developers must write JavaScript and Scala for same logic.
+Lots of context switching between languages.
+Hard to find people with front-end and back-end.
+Not many know Scala.
+Result, mobile website falling behind.
+Browser CORS allows flexibility without proxy.
+React was new in 2015, render in browser.
+Twitter objectives:
+  - Fast
+  - Offline
+  - Robust      <-- most important
+Wanted 'ludicrously developable'.
+Wanted service to execute JavaScript for UX.
+Center of gravity moved from server to browser.
+So, leaning on Node.
+Needed to convince the larger organization.
+Goal, shift architecture.
+Education campaign, Scala to Node.
+Dependencies on third party libs --
+Scala:
+  - 100 libs
+  - Reviewed by security team
+  - Each with internal owner to update
+Node:
+  - 2000 libs
+  - Vastly more than could audit
+  - Would be 'denial of service' attack on security team
+Develop very large app without type safety?
+So, really emphasized testing.
+Used sentry.io error reporting system.
+Absolutely invaluable for building confidence.
+Teach the team, learn as quickly as possible.
+Tech talks, really big part, every Wed.
+Retrospectives, weekly, blame free, best thing we've done.
+Twitter scroller is critical code, cross platform.
+More than one or two sprints to rewrite.
+Shipped replacement scroller.
+Risk, black hole of resources.
+Retrospective spreadsheet showed what to build.
+Node in production.
+From Scala + Thrift, to V8 + JSON.
+Surprised by difference.
+Node calls REST APIs to bootstrap app.
+Had a 400 KB JSON parse that was slow.
+Used flame graph (Netflix) to identify Node performance bottlenecks.
+Spending a lot of time in JSON parsing, which is synchronous.
+Very poor workload for Node.
+Cascading effect on event loop.
+Should we improve the V8 JSON parser?
+No, impractical, need to parse less.
+Reduced 400 KB to 40 KB for JSON parse.
+Optimization available to all clients and services.
+Excited about GraphQL, ported some APIs already.
+Now, applications cheaper to operate.
+Compute cost:
+  - JVM,  100%
+  - Node, 5.8%
+Engineering efficiency.
+Time to deploy update per service:
+  - Scala, 30 minutes
+  - Node, 6 minutes
+Compile:
+  - Scala, 4 minutes
+  - Node, 1 second
+We really like our new website.
+It is very developable, thanks to:
+  - Node
+  - Express
+  - React
+  - Webpack
+
+https://sentry.io
+
+http://graphql.org/
+
+
