@@ -1,0 +1,67 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Taking Node.js Benchmarking to the Next Level with Industry Collaboration and Community Contribution
+
+Michael Dawson, Senior Software Developer, Node.js Community Lead, IBM
+@mhdawson1
+
+Monica Ene-Pietrosanu, Software Engineering Directory, Intel
+@menepie
+
+Gaurav Seth, Principal PM Manager, Microsoft
+Product lead for ChakraCore, TypeScript, Node.js on Azure
+Node.js Foundation Board Member
+@gauravseth
+
+Ali Sheikh, Software Engineer, Google
+@ofrobots
+
+Dan Shaw
+Former CTO/Co-founder NodeSource
+@dshaw
+
+Joyent and Microsoft extend Node to new platforms beyond Linux.
+Responsible for growth of Node.
+Benchmarking working group.
+Capture use cases for Node.
+Build out matrix of use cases.
+Run benchmarks as we make changes.
+What it means for Intel:
+  - Extend hardware, instruction sets, memory.
+  - Software has to be driven back into hardware.
+  - Driving performance optimization into hardware roadmap.
+  - Improvement 1.5 X.
+  - Part of our charter.
+  - Contribute to open source, Node.
+Microsoft:
+  - Look at benchmarking, see how to improve platform.
+Google:
+  - Node used in a lot more places.
+IBM:
+  - Shipping, supporting Node.
+  - Runtime tech team, very focused on performance.
+  - Benchmarking should take place in the community.
+  - Nightly whole system benchmark.
+Intel contributes hardware for benchmarking and Node build system.
+Benchmarking has changed in cloud and data center.
+So contribute new workloads for cloud and data center.
+Microsoft, how to improve metrics, visualization.
+Cloud native workloads, next 3-5 years.
+Serverless, containers, VMs, across compute model.
+Google, nightly V8 regression test benchmarking.
+Intel NodeDC, Node Data Center workloads for benchmarking.
+Do not overspecialize language engine for single use cases.
+With browsers, easy.
+But with Node, hard, need real world workloads.
+Google V8 and Microsoft ChakraCore developers are friends.
+Great to work together.
+Open source software brings us together.
+Any benchmark, no matter how carefully constructed, will eventually lie to you.
+Measure as close to thing in production as possible.
+There is a half-life due to changes.
+Make sure benchmarks are relevant and giving you the metric you need.
+Do not use micro benchmarking to compare things.
+Too simple, compiler optimizes away.
+Vendors optimize for worst things in the world.
+Need more people involved.
+Trying to fill in that matrix.
