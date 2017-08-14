@@ -1,0 +1,56 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Platform as a Reflection of Values: Joyent, Node.js and Beyond
+
+Bryan Cantrill, CTO, Joyent
+
+Software platform decisions are big important decisions with large consequences.
+We choose a platform, and community, and the values of that community.
+Values are in tension.
+Subset choices, core values, often are not articulated.
+Unix core values: portability, simplicity, composability.
+OpenBSD core value: security.
+Awk core values: simplicity, velocity, expressiveness.
+DTrace core values: safety, operability.
+Third rail you cannot cross - debug in production.
+Node core values 2010: approachability, performance, simplicity.
+Write performant async app in fewer lines of code.
+Joyent values 2010: safety, stability, rigor.
+Joyent values now --
+Nothing more clarifying than being presented by exploit in own code.
+Guy found an exploit in our software.
+We hired him.
+Whole new way of bringing security into how we think and prioritize things.
+Core values often track people.
+Node.js demographics - these were not lightweights.
+Joyent built own infrastructure on Node.
+Brendan Gregg invented flame graphs at Joyent for Node.
+We developed Bunyan logging in 2012.
+Dynamically turn on DTrace in a microservice.
+Developed Restify, RFC compliance.
+Developed vasync lib, use it instead of async lib.
+Post-mortem core dump, inspect closure bindings.
+Use v8plus instead of NaN or N-API.
+Values are not contagious.
+Not everyone had these values.
+Node values: approachability, expressiveness, velocity.
+TJ Holowaychuk's Farewell to Node.js.
+Left Node due to conflict of values.
+TJ and Felix went to Golang.
+Highlights the challenge of community.
+Must constantly rearticulate values.
+Need strong identity around values.
+Most people just leave silently.
+Joyent learned the hard way --
+We held aspirations for Node that Node did not hold for itself.
+So we transitioned Node to a foundation in 2015.
+Issue, Promises, Barbara Liskov invented Promises in the 1980s.
+Promises, debuggability, can't accomodate both value systems.
+Elections do not resolve differences in values with votes.
+Joyent is continuing with Node, but looking beyond.
+Will see Joyent active in Go, Rust, perhaps others.
+Will bring our debuggability.
+We might deploy Go, Rust, due to their values.
+Node needs to clarify their values.
+Be clear about values when choose between approachability and reliability.
+
