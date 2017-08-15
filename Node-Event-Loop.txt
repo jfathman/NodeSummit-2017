@@ -1,0 +1,48 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Node's Event Loop from the Inside Out
+
+Sam Roberts, Senior Software Developer, IBM Canada
+@octetcloud
+
+What is the event loop?
+Is Node single or multi-threaded, and when?
+Why is Node said to scale well?
+Walkthrough of C code listening socket.
+Uses pthread_create, after socket bind, listen, accept.
+Linux uses epoll, since threads are resource heavy.
+Block until event occurs using epoll_wait.
+One thread, multiple clients.
+Node event loop, polling and blocking on OS, waiting for event.
+Use .unref() to mark handle as not counting to keep Node event loop alive.
+Node exits when there is nothing to do.
+Three classes of things:
+  - Pollable file descriptor.
+  - Time, next timeout waited on.
+  - Everything else, handled off loop, thread pool, signal back to loop when done.
+Pollable: sockets, net, dgram, http, tls, pipes, stdin/stdout, ...
+Classic, well supported.
+Pollable: time, rounded up to system clock granularity.
+Node sorts timeouts, waits on next one, using epoll_wait.
+Do not create OS timer for every JavaScript timer.
+Better to just keep ordered list in Node.
+Not pollable: file system.
+File system async I/O has been discussed for decades.
+Remains elusive.
+Everything in Node fs uses libuv thread pool.
+Sometimes pollable: DNS.
+getaddrinfo(), system resolver library.
+c-ares, non-blocking DNS resolver.
+Integrates with loop, not the thread pool.
+Blocking lib calls must be shunted off to thread pool.
+libuv thread pool shared by: fs, dns lookup, crypto, http get/request, C++ addons.
+Default number of threads is 4.
+Change using env var UV_THREADPOOL_SIZE.
+Pollable: signals, the ultimate async.
+
+https://en.wikipedia.org/wiki/Epoll
+
+https://github.com/libuv/libuv
+
+https://c-ares.haxx.se/
+

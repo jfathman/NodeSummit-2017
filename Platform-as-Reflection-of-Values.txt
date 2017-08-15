@@ -3,6 +3,7 @@ NodeSummit, San Francisco, CA, Wed 26 Jul 2017
 Platform as a Reflection of Values: Joyent, Node.js and Beyond
 
 Bryan Cantrill, CTO, Joyent
+@bcantrill
 
 Software platform decisions are big important decisions with large consequences.
 We choose a platform, and community, and the values of that community.
