@@ -1,0 +1,42 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Machine Learning on JavaScript
+
+Lucas Aragno, Software Developer, Moove-it
+@aragno157
+
+Why Node.js?
+Already have r-project, tensorflow, etc.
+Why JavaScript?
+Right tool for the job.
+Easier to onboard people.
+Lots of modules.
+We love JavaScript.
+What is machine learning?
+Arthur Samuel: Gives computer ability to learn without being explicitly programmed.
+Types of learning:
+  - Unsupervised learning.
+      Figuring out patterns of data, how it can be grouped.
+  - Supervised learning.
+      Learning by example.
+      Labeled data, feed to model.
+Classification problems.
+Types of algorithms, KNN, CART, SVM, NB, ANN.
+Neural networks.
+Synaptic.js, architecture-free neural network lib for Node and the browser.
+Neataptic, neurons, activation functions:
+  - Logistic Sigmoid
+  - Rectified Linear Unit
+  - Hyperbolic Tangent
+  - Hard Limit Functions
+Sigmoids are pretty popular.
+Neurons: project, activate, propagate, gate.
+Code example, using Synaptic.js in Node:
+  - Building a neural network.
+  - Train neural network for XOR truth table.
+  - Need to normalize data for input.
+Other types of networks, convolutional neural network.
+
+http://caza.la/synaptic/#/
+
+https://wagenaartje.github.io/neataptic/
