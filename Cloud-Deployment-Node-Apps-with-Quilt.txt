@@ -1,0 +1,30 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+Easy Cloud Deployment of Node.js Applications with Quilt
+
+Kay Ousterhout, Founding Engineer, Quilt
+@kayousterhout
+
+Quilt launches machines at AWS.
+Uses a declarative interface.
+Containers.
+Can change cloud provider.
+Example, change from AWS to DigitalOcean.
+Why JavaScript?
+Easy to share code.
+npm install.
+Import modules.
+Quilt enables sharing.
+Describe service, such as Mongo.
+Security, default deny networking.
+Quilt mission is to encode experience in JavaScript.
+MIT licensed source at GitHub.
+Quilt uses container orchestration under the hood.
+Not Kubernetes.
+Changed to different container orchestrator.
+Private cloud, some support for Vagrant.
+
+http://quilt.io
+
+Implemented in Go.
+https://github.com/quilt/quilt
