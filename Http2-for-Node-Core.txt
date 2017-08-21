@@ -1,0 +1,71 @@
+NodeSummit, San Francisco, CA, Wed 26 Jul 2017
+
+HTTP2 for Node.js Core
+
+James Snell, Open Source Architect, nearForm
+Node.js TSC Director
+@jasnell
+
+Node core contributor full time.
+TSC committee member.
+Wrote implementation of HTTP2 for Node.
+Year of hard work.
+RFC 7540 HTTP version 2.
+Example: require('http2');
+Pull request last week.
+Try to land soon, 45K lines of code.
+Adds 100 new tests.
+Will take a while to review.
+Uses nghttp2 library.
+
+    +-------------------+
+    | require('http2'); |
+    +-------------------+
+    |    node_http2     |
+    +---------+---------+
+    | nghttp2 |  libuv  |
+    +---------+---------+
+
+What works now?
+  - Push streams.
+  - Multiplexing, practical limit ~200 concurrent streams.
+  - Flow control, due to multiplexing.
+  - Prioritization, such as video playing in other tab.
+  - Header compression, HTTP/2 stateful, delta-based header compression,
+      reuses header data, only sends changes, reduces traffic by 80%.
+  - Plain text and TLS, Node supports plain text, browser requires TLS.
+  - Client and server.
+  - Server-side send file.
+  - Partial HTTP/1 compatibility.
+Soon:
+  - Client-side send file.
+  - Performance optimizations.
+  - Working with async hooks.
+  - HTTP/2 protocol extensions.
+Git clone https://github.com/nodejs/http2.
+Build takes a long time, V8, etc.
+Flag is temporary in Node 8 until Node 9:
+  NODE_DEBUG=http2 ./node --expose-http2
+Server-side push.
+We don't know how people will use this.
+Could populate cache.
+Server side respond with file.
+Huge performance improvement over current Node.
+Not as fast as NGINX.
+Can control stat permissions, etc.
+With HTTP/2, 200 OK, etc. status messages are gone.
+Goal is to land HTTP/2 in Node 8.x as experimental.
+With luck, fully supported in Node 9.x, Oct 2017.
+Q&A:
+Benchmarking the client.
+Just under HTTP/1 client file uploads due to additional buffering.
+Throttling.
+Don't have best practices yet.
+Get code in front of people, get feedback.
+Don't want to prematurely optimize.
+Want to wait before optimizing.
+
+https://tools.ietf.org/html/rfc7540
+
+https://nghttp2.org/
+
