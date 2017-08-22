@@ -1,0 +1,100 @@
+NodeSummit, San Francisco, CA, Wed 27 Jul 2017
+
+Panel Discussion: The Future of Node.js
+
+Justin Beckwith, Product Manager, Google
+@JustinBeckwith
+
+Myles Borins, Developer Advocate, Google
+@MylesBorins
+
+Mark Marron, Research SDE, Microsoft
+@mrkmarron
+
+James Snell, Open Source Architect, nearForm
+@jasnell
+
+Kim Trott, Director of Engineering, Netflix
+@ktrott00
+
+Mark: Chakra team, diagnostics, time-travel debugging.
+Myles: turbo fan ignition pipeline, TC39.
+Justin: Node, tooling, developer experience.
+James: HTTP/2, new possibilities, REST APIs.
+Extensibility in protocol push streams.
+Users do amazing things with tools.
+Express/Hapi frameworks need to integrate HTTP/2, new debugging.
+HTTP/2 Protocol is completely different.  
+Multiplexing, get CSS in the browser.
+Where HTTP/2 and modules interact.
+Push files to browser, predictive algorithms.
+Hesitate to guess where people will go with it.
+Land experimental in 8.x.
+Currently, V8 changes the API.
+N-API, new intermediary API in Node.
+Transparently upgrade V8.
+More consistent API for module writers.
+Microsoft gets credit for kick-starting N-API effort.
+Driven by ChakraCore as VM diversity.
+Run on different platforms.
+CTC decided to support the effort.
+Convened VM summit.
+Stability native API was the number one thing to do first.
+ABI in N-API goal is to be forward compatible.
+Install module once, then upgrade Node version, or switch to ChakraCore.
+Still works, same module.
+What is an async context?  Promises ...
+Landing async Promises hooks so tools can try to show useful developer info.
+How map core dump, time traces.
+Post-mortem diagnostics with full traces.
+Step back in time.
+Java not nearly as performant as Node async.
+Write JavaScript full-stack.
+But also use developer tools full-stack.
+Use front-end developer tools for back-end.
+TTD, record execution with full fidelity.
+Hit F5, error reproduces, step back in time.
+Error associated with change two days ago.
+Ambitious, deliver this in five years would be great.
+Google cloud 'stack driver' tools.
+Passive production debugger.
+When condition happens, at breakpoint, does not break, but captures entire state of app.
+TC39 involvement.
+Strict consensus model.
+Single person can veto.
+Trust model, listen and work with other people.
+Trying to find ways around interop, CommonJS and ES6 modules, balance.
+What belongs in language, versus implementation detail.
+Where lines are, why people feel the way they do.
+Before a year ago, Node did not show up at TC39 to speak on behalf of the community.
+Relationship has gotten a lot better.
+Ongoing relationship building.
+Server-side use cases completely different than client side, lot of differences there.
+Impact of new browser technologies on Node.
+Webassembly, service workers.
+Make available, see what creative people do with it.
+Minimize delta between client and server development.
+Won't lose sight of small core.
+Node core, modules is an ongoing thing.
+How do we do it without breaking everything?
+Post-mortem debugging, Promises, ongoing debate.
+We are making progress.
+Take error back model, wrap it in Promises.
+When do we do a throw?
+When do we do a core dump?
+Extremely complex.
+Node is confluence of:
+  - Right technology.
+  - Work flows.
+  - Things coming out of academia.
+Next five years:
+  - Better platforms.
+  - Easier to run in the cloud.
+  - Way cheaper.
+  - More intuitive.
+With Electron, seeing Node expand beyond server.
+That wasn't expected.
+Robots.
+Serverless environment.
+Working groups doing fantastic work, N-API, localization.
+Node certification later this year from the Foundation.
