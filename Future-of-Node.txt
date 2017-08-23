@@ -1,4 +1,4 @@
-NodeSummit, San Francisco, CA, Wed 27 Jul 2017
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
 
 Panel Discussion: The Future of Node.js
 

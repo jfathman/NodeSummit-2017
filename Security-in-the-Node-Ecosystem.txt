@@ -1,0 +1,63 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Security in the Node.js Ecosystem
+
+Vladimir de Turckheim, Lead Node.js Engineer, Sqreen
+@poledesfetes
+
+Gergely Nemeth, CEO, RisingStack
+@nthgergo
+
+Guy Podjarny, CEO, Snyk
+@guypod
+
+Emily Rose, Lead Software Evangelist, Salesforce
+@Amorelandra
+
+Bryan English, Software Engineer, Intrinsic
+@bengl
+
+Attackers have curiosity and lack of respect for boundaries.
+The more protected, the greater the challenge.
+How do you break this?
+Recent vulnerability affecting all versions of Node.
+E-mail from npm a month ago.
+Chalker, security researcher in Node space.
+Used brute force to get into Node modules at npm.
+Over half of all downloads vulnerable.
+Sobering moment, raise awareness.
+Compromised entire Node community.
+Researcher reported responsibly.
+Good reception of it.
+Credential problem, need to use harder passwords.
+Reduce attack surface, make read-only.
+Develop a strategy, multiple layers of protection.
+Security has a reputation for being complicated.
+Lot of things you can do that are not hard that can increase your security.
+We can't expect people to become security experts.
+At snyk, we work hard so you don't have to.
+Default permissions to high or low?
+Nuisance versus security.
+Secure by default.
+Trust but verify.
+Culture, get people comfortable with being tested.
+95% of security breaches are due to human error.
+Agile teams are very trusting, difficult to challenge, verify.
+Internal trust versus external caution.
+Internal red team, we don't know we are being tested using phishing attacks.
+Is serverless really safe with all this testing?
+Serverless is fascinating opportunity.
+More responsibility to cloud operator, trend driven by security.
+But attackers don't just give up.
+Node is leading language for serverless, driving adoption.
+Emerging technology is an attractive target.
+Hackers are curious, drawn to new things.
+Think about serverless as opportunity for security.
+Security tools on serverless.
+Anything that's Turing complete can be pretty dangerous.
+JavaScript is neither secure nor insecure.
+Every language has idiosyncrasies, weaknesses.
+Giving attackers control over types of input to system, JSON, arrays.
+Flexibility is great, but is more risky.
+Node is flexible.
+
