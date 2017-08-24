@@ -1,0 +1,35 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Debugging in 2017 with Node.js
+
+Paul Irish, Developer Advocate, Google
+@paul_irish
+
+Works at Google on Chrome developer tools.
+console.log(), reliable, works everywhere.
+V8 inspector component in Node.
+  node --inspect hello.js
+  --inspect-brk to pause at first statement
+Enter 'about:inspect' as URL in Chrome.
+Select 'Open dedicated DevTools for Node'.
+Adds Node icon, click that.
+Dedicated window auto reconnects when rerun app.
+Pause inside arrow function.
+Super useful.
+Single-step Node code in Chrome.
+'Blackbox' feature, stay in my code. (applause)
+Live edit, keep running Node app during debugging.
+Additional debugging features:
+  - Start debugging an existing Node process.
+  - Use a gdb like CLI debugger, backend recently redone in Node.
+  - Drive with DevTools Protocol with WebSockets port.
+  - Drive with DevTOols Protocol with require('inspector').
+Tracing in Node.
+Powerful collection of tools, used in Chrome.
+Traces are really powerful.
+  node --trace-events-enabled app.js
+Inspect V8 execution time, DNS, TCP.
+Identify where latencies are.
+Sitting on top of AsyncWrap in Node.
+Lots more opportunities for instrumentation.
+

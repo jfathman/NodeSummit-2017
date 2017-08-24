@@ -1,0 +1,44 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Build a Chatbot for Google Assistant, Google Home and More
+
+Bret McGowen, Developer Advocate, Google
+@bretmcg
+
+Google Assistant.
+Conversation between you and Google.
+On mobile, phone, smart watch, home devices, in your car.
+How to add things to calendar, weather, ...
+As developer, add features to Google Assistant.
+Order pizza, learn about your dog.
+Flow of an action.
+Create project on Actions Console.
+Create a custom action.
+api.ai, handle natural language.
+Tag types in api.ai dialog designer.
+TTS response, edit in api.ai.
+'Try it Now' button in UI.
+Webhook, custom logic, can live anywhere.
+Google Cloud Functions, serverless JavaScript, FaaS:
+  - Auto scaling.
+  - Pay only when invoked.
+  - Node 6.11.1.
+  - Must return in 5 seconds.
+Demo:
+index.js cloud function.
+addIntent() logic.
+gcloud CLI, deploy cloud function. 
+Fulfillment URI, use webhook.
+Response types.
+Request, inspect ASR/TTS request/response dialog, JSON payload.
+Support for rich response structures.
+Maintain states through dialog workflow.
+Discoverability.
+In dialog - 'Okay Google, let's talk to you about ...'.
+Assistant Directory.
+Via link.
+Implicit triggering.
+Say what you want to do.
+Google makes suggestion, appropriate for request.
+Assistant Directory, like app store.
+
