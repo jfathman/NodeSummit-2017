@@ -36,7 +36,7 @@ So our packages use statically link libs, headers, npm.
 See output of ldd /usr/bin/node.
 This is the big reason we do it.
 We build target distros on those distros.
-uSING sbuild for Debs, mock for RPMs.
+Using sbuild for Debs, mock for RPMs.
 ARM based Debs, but no ARM based RPMs.
 Trust and repositories.
 Signed collections of packages and metadata.
