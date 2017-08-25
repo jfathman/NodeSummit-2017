@@ -1,0 +1,53 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+From Tarballs to Your Package Manager: Considerations for Packaging Node.js for Linux
+
+Chris Lea, Senior Engineer, NodeSource
+@chrislea
+
+NodeSource creates .deb and .rpm packages for Node.
+Packages are lowest common denominator.
+Linux distro already has a package manager.
+Packages play nice with Ansible, Chef, etc.
+Get trusted versions of Node.
+But distro pins default version in place.
+RHEL, backport, security patches, run forever.
+Not typically what Node users want.
+What are packages? (.deb, .rpm)
+Collections of software and metadata about the software.
+Metadata is largely concerned with dependencies.
+RPM packages are cpio archives.
+Deb packages are ar archives.
+Repos are signed collections of packages and metadata.
+Hashsums of files.
+RPM packages are signed, metadata is not.
+Deb metadata is signed, packages are not.
+Zen of packaging.
+.deb works great if making a Linux distribution.
+Artifacts for specific distro should be built on that distro/architecture.
+Separate packages for separate programs.
+Anything that can be a shared lib should be a shared lib.
+Dynamically link ICU, libuv, c-ares, ssl, etc.
+Headers in separate package.
+npm in separate package.
+Every npm lib is its own package.
+No Node developer wants that.
+So our packages use statically link libs, headers, npm.
+See output of ldd /usr/bin/node.
+This is the big reason we do it.
+We build target distros on those distros.
+uSING sbuild for Debs, mock for RPMs.
+ARM based Debs, but no ARM based RPMs.
+Trust and repositories.
+Signed collections of packages and metadata.
+add-apt-repository, imports GPG key into machine's keyring.
+curl pipe shell script as root.
+You can read the script, easy to read on purpose.
+The scary part is importing somebody's GPG key.
+Because every package has preinstall/postinstall scripts.
+All run as root.
+There are good reasons for this.
+This is how things have always been.
+Nothing is stopping package manager from 'rm -rf /' at 3 hours from now.
+Q&A:
+Yes, we build the binaries, don't just take from Node.
