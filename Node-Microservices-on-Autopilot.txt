@@ -1,0 +1,65 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Node.js Microservices on Autopilot
+
+Wyatt Preul, Product Engineer, Joyent
+@wpreul
+
+Microservices.
+Small, decomposed from monolith.
+Stateless.
+Independent.
+Embrace failure.
+Iterate quickly, disposable.
+Microservices antipatterns:
+  - Load balancer between microservices.
+  - How startup order can matter.
+Must assume all is not working, available, when microservice starts.
+Autopilot pattern:
+  - Scale/deploy single click.
+  - Not tied to cloud, infrastructure, scheduler.
+Examples use Docker containers.
+Use Consul for service discovery.
+Modules:
+  - Hapi
+  - Seneca
+  - Piloted
+  - Wreck
+IoT message data from sensors to NATS.
+Docker compose.
+Self-healing qualities.
+InfluxDB.
+Telemetry reporting to Prometheus.
+Joyent ContainerPilot, autodiscovery and configuration, Golang.
+JSON5.
+Hapi circuit breaker.
+Client side load balancing, NATS.
+NATS cluster.
+NATS auto-cluster.
+Use API gateway to expose microservices externally.
+Telemetry reporting.
+
+https://github.com/autopilotpattern
+
+http://autopilotpattern.io/
+
+https://www.consul.io/
+
+https://hapijs.com/
+
+http://senecajs.org/
+
+https://github.com/joyent/node-piloted
+
+https://github.com/hapijs/wreck
+
+https://nats.io/
+
+https://www.influxdata.com/time-series-platform/influxdb/
+
+https://prometheus.io/
+
+https://github.com/joyent/containerpilot
+
+http://json5.org/
+
