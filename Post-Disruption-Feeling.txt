@@ -1,0 +1,39 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+That Post-Disruption Feeling
+
+Matt Edelman, Manager, Node Infrastructure, PayPal
+
+Node, Kraken, 1 billion hits per day at PayPal.
+Amazing how much a small team can do with Node.
+But one tiny module with an error could explode everything.
+We do Agile, backlog, stories, standups, not all the meetings.
+Prioritization, communication.
+Shared understanding of what we're working on.
+Kraken.js:
+  - Express wrapper.
+  - Promotes consistency across applications.
+  - Standardizes around security.
+Web site is outdated, working on that.
+Direct dependencies make upgrades challenging.
+Becomes complicated.
+Goal is to shorten build times.
+Why above 45 minutes?  Want 4 minutes.
+Low hanging fruit.
+Build image with everything it needs.
+Base image will have some of this stuff.
+Get rid of legacy non-Docker stuff.
+Not easy to push change through large corporation.
+Weird legacy, using PhantomJS in production to create PDF files.
+Transpiling in production.
+Nodeops dashboard.
+Track module and Node versions.
+Group together upgrades we want teams to do.
+Performance improvement: isolate, measure, magic, repeat.
+Applications shouldn't need to include so much infrastructure.
+Q&A:
+Will open source Nodeops dashboard when it is ready.
+Open source needs to come from solving a practical problem.
+
+http://krakenjs.com/
+
