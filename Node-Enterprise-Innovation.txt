@@ -1,0 +1,80 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Using Node.js to Enable Enterprise Innovation
+
+Ryan Juang, Engineering Manager, Conde Nast
+@papajuans
+
+Daniel Khan, Technology Lead, Dynatrace
+@dkhan
+
+Trevor Livingston, Principal Architect, HomeAway
+@tlivings
+
+Anurag Sinha, Member of Technical Staff, PayPal
+
+Folks really working at scale.
+Using Node at enterprise level for years.
+Enterprise software creates positive business outcomes without negative business impact.
+Hesitance to introduce risk.
+Conde chose Node to rebuild platform and engineering culture.
+Conde is all out on Node.
+Dynatrace started seeing Node more and more in enterprises.
+Wrote Node agents from scratch.
+Now using Node for internal projects.
+HomeAway needed to do more, quickly.
+Node was an obvious choice.
+Paypal, huge Java monolith.
+Difficult due to language and ecosystem complexity.
+Rewrote/rearchitected in Node.
+One of most heavily trafficked apps at PayPal.
+Payment checkout.
+Node has been a great ride.
+Biggest impact is boost in productivity.
+Same language on front-end and back-end.
+There were silos at PayPal, married to particular technologies.
+JavaScript enabled all these people to come together.
+Can now build much faster.
+JavaSript faster and easier to adopt.
+People bring the open source culture.
+Do one thing and do it well.
+Begin to contribute back.
+Small teams can contribute needed module.
+First Node is used on the edge.
+Then flows into the whole organization.
+Faster deployment, CI/CD.
+Technology shift caused by Node.
+Open source mindset.
+Satisfying curiosity.
+Same language, same runtime.
+Open code, see what it does.
+Challenges adopting Node?
+Greenfielding from scratch.
+Event loop, async, learning curve.
+Everything is dynamic, implications for monitoring.
+Challenge to keep up and not break anything.
+HomeAway, migrating to AWS, disruptive, ongoing.
+Throw another platform in mix.
+How do you get Java teams educated on Node way?
+Hiring, difficult to find full stack engineers in Austin.
+Mid-tier Node, how do we scale certain things?
+Java very mature in this space.
+How do we optimize Node mid-tier?
+Still on that journey.
+Applied Node experience from UX to mid-tier.
+Cultural challenge, understanding asynchrony.
+Asynchronize certain flows.
+It was inspirational, and performance gains.
+Great thing about Node is cultural.
+Node as catalyst for change.
+Node as proxy for legacy stacks.
+Banks, don't connect mobile app to mainframe.
+Node offers easy API to accomplish that.
+Two-sided marketplace, like HomeAway.
+Interaction through web.
+Need to measure how efficiently bringing people in.
+Node, speed to make adjustments.
+Quickly respond to two-sided marketplace.
+Fintech, mobile UX.
+Strength of Node is culture of developers inside the company.
+
