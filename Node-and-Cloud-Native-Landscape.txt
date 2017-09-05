@@ -1,0 +1,40 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Node.js and the Rapidly Evolving Cloud Native Landscape
+
+Jonathan Carter, Principal Program Manager, Microsoft
+@LostInTangent
+
+What is cloud native?
+Composed of containerized microservices deployed in a dynamically orchestrated environment.
+Deployment artifact, tarball, something you run.
+Container includes Node modules, env vars.
+Universal repeatability, portability.
+Increased resource efficiency, less RAM, CPU, HDD than VMs.
+Share a lot with host machine.
+Orchestrator, tool lets you treat a cluster of servers like it was one.
+Handles scheduling, fault tolerance, etc.
+Cattle, not pets.
+Kubernetes.
+Shipping is your company's heartbeat.
+Demo (Docker and Kubernetes demo, by Microsoft).
+@code editor environment:
+  - Containerize your app.
+  - Add Docker files to workspace.
+  - Node 6 Alpine.
+  - Provides operational transparency.
+  - Auto completion on Docker config.
+  - Docker Compose, run set of containers together as a unit.
+  - Build complex things off of primitives.
+  - F5, attache to app.
+  - Single-step debug inside container.
+How deploy in practice?
+Kubernetes.
+Minikube, local dev environment.
+Emulate complex Kubernetes cluster on local machine.
+kubectl CLI.
+Kubernetes is security conscious.
+Minikube runs in a VM.
+Run on local machine, on-prem, or cloud.
+Kubernetes + Node = digital transformation.
+

@@ -1,0 +1,31 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Node.js Foundation Update
+
+Mikeal Rogers, Community Manager, Node.js Foundation
+@mikeal
+
+Mark Hinkle, Executive Director, Node.js Foundation
+@mrhinkle
+
+Node is emerging as a universal development framework for digital transformation.
+8 million Node instances every day ...
+1 billion npm downloads ...
+Every company wishes they were us.
+Node is being used by biggest web properties.
+Passionate crazy people make Node.
+Open source software index:
+  - Linux
+  - Git
+  - MySQL
+  - Node     <-- 4th, ahead of Docker
+  - Docker
+  - Hadoop
+  - ElasticSearch
+How we use Node:
+  - Back-end
+  - Full-stack
+  - IoT / embedded systems
+Node is a worldwide technology.
+Node is easy to learn, hard to master.
+
