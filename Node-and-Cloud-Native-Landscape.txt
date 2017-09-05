@@ -38,3 +38,11 @@ Minikube runs in a VM.
 Run on local machine, on-prem, or cloud.
 Kubernetes + Node = digital transformation.
 
+https://kubernetes.io/
+
+https://github.com/kubernetes/minikube
+
+https://alpinelinux.org/
+
+https://hub.docker.com/_/node/
+
