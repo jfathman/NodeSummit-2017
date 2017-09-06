@@ -1,0 +1,29 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+The Future is Serverless: What that Means for Node.js
+
+Chris Anderson, Senior Program Manager, Microsoft
+
+Started Functions Project, Azure.
+Major cloud vendors started with Node first.
+Chose Node:
+  - JavaScript is the English of programming languages.
+  - JavaScript is very accessible for users.
+  - Rich ecosystem.
+Node is:
+  - Lightweight, helps reduce cold start.
+  - Distributed, horizontally scaled.
+  - No compilation.
+  - Runs on multiple OS's.
+What does serverless do for Node devs?
+  - Makes background processing a breeze.
+  - Scaling easier than ever.
+New ecosystem of serverless friendly Node modules.
+Minimal, load time friendly, other new tooling.
+Node package authors need to be more considerate on memory and think about load time.
+Serverless implementations are vendor specific, and could splinter community.
+Node and serverless are perfect for each other.
+Serverless was successful because of the open community that Node grew.
+
+https://functions.azure.com
+

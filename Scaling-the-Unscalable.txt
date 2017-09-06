@@ -1,0 +1,32 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Scaling the Unscalable: Introducing the Downtown Architecture
+
+David Clements, Principal Architect, nearForm
+@davidmarkclem
+
+Luca Maraschi, Principal Architect, nearForm
+@lucamaraschi
+
+Technology and org structures are intertwined.
+Conway's Law.
+When you change the technology, org structures change.
+Decompose monolith into units of work.
+Untangle the spaghetti code, make it composable.
+How do we:
+  - Share modules across feature teams?
+  - Do version control?
+  - Reduce risk of total app failure?
+rifi library.
+Export components from service.
+service.exports();
+Single unit of deployment.
+npm install rifi
+Export a service, deploy it, it just works.
+Dependency serialization.
+upring, Node app sharding.
+rifi, distributed dependency trees.
+
+https://github.com/davidmarkclements/rifi
+
+https://github.com/upringjs/upring
