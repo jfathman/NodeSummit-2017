@@ -1,0 +1,30 @@
+NodeSummit, San Francisco, CA, Thu 27 Jul 2017
+
+Securing Your Serverless Node Apps
+
+Guy Podjarny, CEO, Snyk
+@guypod
+
+Demo serverless app, explain security flaws.
+Using 'Serverless Framework' on Lambda.
+YAML, CRUD, serverless functions.
+Using curl | jq to make pretty.
+Are npm modules secure?
+Bits of infrastructure.
+aws-snyk check vulnerable modules.
+regex can block event loop.
+reDoS is regex DoS.
+regex catastrophic backtracking.
+Serverless is immune to DoS if spin up more capacity.
+Billed duration.
+So denies access to bank account.
+Remote command execution on server (AWS).
+Use key management in serverless environment.
+For performance reasons, Lambda and others keep serverless instances warm.
+Data may not disappear after FaaS completes.
+Don't think serverless is immutable.
+Strong as weakest link.
+Single function can topple the system.
+Each function is an attack surface.
+Functions are almost free.
+Cost due to risk/damage is not so free.
